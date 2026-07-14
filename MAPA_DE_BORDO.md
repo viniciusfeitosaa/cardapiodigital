@@ -49,21 +49,7 @@
 - [x] Setup do Next.js 14 com App Router e TailwindCSS.
 - [x] Integração com biblioteca de ícones **Lucide React**.
 - [x] **Landing Page:** Página inicial institucional para venda do SaaS.
-- [x] **Página de Login Unificada:**
-    - [x] Design moderno com gradiente vermelho.
-    - [x] Formulário com validação e toggle de senha.
-    - [x] Redirecionamento automático baseado no role (Admin ou Restaurante).
-    - [x] Credenciais de teste exibidas na UI.
-- [x] **Dashboard Administrativo (Admin):**
-    - [x] Sidebar responsiva com menu completo.
-    - [x] Cards de estatísticas (Empresas, Usuários, Cardápios, Pedidos).
-    - [x] Listagem de atividade recente.
-    - [x] Perfil do usuário e logout.
-- [x] **Dashboard do Restaurante:**
-    - [x] Sidebar com navegação específica do restaurante.
-    - [x] Stats em tempo real (Pedidos hoje, Em preparo, Faturamento).
-    - [x] Lista de pedidos recentes com status colorido.
-    - [x] Atalhos rápidos para gestão de cardápio e pedidos.
+- [x] **Layout Administrativo:** Sidebar, Header, estrutura de dashboard.
 - [x] **Páginas Públicas do Cardápio:**
     - [x] Listagem de categorias e produtos.
     - [x] Carrinho de compras (state management local).
@@ -72,13 +58,13 @@
 - [x] Design System aplicado:
     - [x] Paleta de cores focada em apetite (Vermelho `red-600`, Laranja).
     - [x] Componentes de Cards, Botões e Inputs estilizados.
-    - [x] UI Responsiva (Mobile-first com suporte a desktop).
 
 ---
 
 ## ⏳ Pendências Imediatas (A Fazer Agora/Em Breve)
 
 ### 1. Refinamento do Frontend Administrativo (Dashboard do Restaurante)
+- [ ] **Dashboard Home:** Gráficos simples (Pedidos hoje, Faturamento dia, Status dos pedidos).
 - [ ] **Gestão de Cardápio UI:**
     - [ ] Formulário de criação/edição de Categorias e Itens.
     - [ ] Upload de imagens (integração com storage local ou S3 simulado por enquanto).
@@ -96,7 +82,6 @@
 - [ ] **Seeders:** Script para popular o banco com dados falsos (empresas, menus, pedidos) para testes rápidos.
 - [ ] **Validações:** Refinar DTOs com `class-validator` para garantir integridade dos dados.
 - [ ] **Tratamento de Erros:** Filtros globais de exceção para retornos amigáveis à API.
-- [ ] **Integração Frontend-Backend:** Conectar formulários e ações dos dashboards às APIs reais.
 
 ---
 
@@ -138,5 +123,5 @@
 
 ---
 
-*Última atualização: Após criação das telas de Login e Dashboards (Admin e Restaurante)*
+*Última atualização: Início do Projeto*
 *Responsável pela atualização: Desenvolvedor AI*

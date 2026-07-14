@@ -59,6 +59,20 @@
     - [x] Paleta de cores focada em apetite (Vermelho `red-600`, Laranja).
     - [x] Componentes de Cards, Botões e Inputs estilizados.
 
+### 4. Dashboards & Responsividade (Última Entrega)
+- [x] **Dashboard do Restaurante Completo:**
+    - [x] Visão geral com métricas (Pedidos hoje, Faturamento, Status).
+    - [x] Cards de acesso rápido para Cardápio, Pedidos e Configurações.
+    - [x] Lista de pedidos recentes com status colorido.
+- [x] **Responsividade Total (Mobile-First):**
+    - [x] Sidebar colapsável com menu hambúrguer em mobile.
+    - [x] Grid de estatísticas adaptativo (1 coluna mobile, 2 tablet, 4 desktop).
+    - [x] Tipografia responsiva (tamanhos ajustam por breakpoint).
+    - [x] Layout flexível que evita overflow e deslocamentos.
+    - [x] Header sticky para navegação fluida em telas pequenas.
+    - [x] Overlay escuro ao abrir menu mobile.
+- [x] **Commit e Push:** Código versionado e enviado para main no GitHub.
+
 ---
 
 ## ⏳ Pendências Imediatas (A Fazer Agora/Em Breve)

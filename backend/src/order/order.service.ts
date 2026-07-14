@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, DataSource } from 'typeorm';
-import { Order } from './order.entity';
+import { Order, OrderStatus } from './order.entity';
 import { CreateOrderDto, UpdateOrderDto, UpdateOrderStatusDto } from './dto/order.dto';
 
 @Injectable()
@@ -142,7 +142,7 @@ export class OrderService {
 
     const [totalOrders, pendingOrders, totalRevenue] = await Promise.all([
       this.orderRepository.count({ where: { tenantId } }),
-      this.orderRepository.count({ where: { tenantId, status: 'pending' } }),
+      this.orderRepository.count({ where: { tenantId, status: OrderStatus.PENDING } }),
       this.orderRepository
         .createQueryBuilder('order')
         .select('SUM(order.total)', 'total')
